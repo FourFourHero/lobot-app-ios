@@ -14,6 +14,10 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var yellowLabel: UIButton!
     @IBOutlet weak var redLabel: UIButton!
     @IBOutlet weak var connectButton: UIButton!
+    @IBOutlet weak var alertView: UIView!
+    @IBOutlet weak var alertButton: UIButton!
+    @IBOutlet weak var alertMessage: UILabel!
+    @IBOutlet weak var alertIcon: UIImageView!
     
     var alerts : [String]!
     var deviceToken : String!
@@ -26,7 +30,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         self.yellowLabel.enabled = false
         self.greenLabel.enabled = false
         self.usernameText.delegate = self
-        
+
         // for debugging
         //self.clearUsernameInKeychain()
         
@@ -43,7 +47,18 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         print("did load")
     }
-    
+
+    override func viewWillAppear(animated: Bool) {
+        self.alertView.layer.cornerRadius = 10
+        self.alertView.layer.borderColor = UIColor.init(colorLiteralRed: 255/98, green: 255/154, blue: 288/209, alpha: 1).CGColor
+        self.alertView.layer.borderWidth = 2.0
+        self.alertView.layer.shadowColor = UIColor.blackColor().CGColor
+        self.alertView.layer.shadowOffset = CGSizeMake(4, 4)
+        self.alertView.layer.shadowOpacity = 0.5
+
+        self.alertButton.layer.cornerRadius = 8
+    }
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
@@ -219,13 +234,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
             } else {
                 print("message does not have a colon, no message num")
             }
-            let alert = UIAlertController(title: "Lobot", message:alertMessage, preferredStyle: .Alert)
-            let okAction = UIAlertAction(title: "OK", style: .Default) { action in
-                self.alerts.removeAtIndex(0)
-                self.showAlerts()
-            }
-            alert.addAction(okAction)
-            self.presentViewController(alert, animated: true, completion: nil)
+            self.displayAlertWithMessage(alertMessage, message_num: message_num)
         }
         self.clearBadges()
     }
@@ -252,5 +261,36 @@ class ViewController: UIViewController, UITextFieldDelegate {
             }
         })
         task.resume()
+    }
+
+    func displayAlertWithMessage(message: String, message_num: String)
+    {
+        self.alertMessage.text = message;
+        self.alertView.hidden = false;
+        self.alertView.alpha = 0;
+        self.alertView.transform = CGAffineTransformMakeScale(0, 0);
+        self.alertIcon.image = UIImage.init(named: String.init(format: "icon_%@", arguments: [message_num]))
+
+        UIView.animateWithDuration(0.35, animations: { () -> Void in
+            self.alertView.alpha = 1;
+            self.alertView.transform = CGAffineTransformIdentity;
+            }) { (complete) -> Void in
+                //
+        }
+    }
+
+    @IBAction func dismissAlert(sender: AnyObject)
+    {
+        self.alertView.transform = CGAffineTransformIdentity;
+        UIView.animateWithDuration(0.25, animations: { () -> Void in
+                self.alertView.transform = CGAffineTransformMakeScale(0.01, 0.01);
+                self.alertView.alpha = 0;
+            }) { (complete) -> Void in
+                self.alertView.hidden = true;
+                self.alertView.alpha = 1;
+                self.alertView.transform = CGAffineTransformMakeScale(1, 1);
+                self.alerts.removeAtIndex(0)
+                self.showAlerts()
+        }
     }
 }

@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEBD7E761C7F64480061F674 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD7E751C7F64480061F674 /* AppDelegate.swift */; };
+		CEBD7E781C7F64480061F674 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD7E771C7F64480061F674 /* ViewController.swift */; };
+		CEBD7E7B1C7F64480061F674 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBD7E791C7F64480061F674 /* Main.storyboard */; };
+		CEBD7E7D1C7F64480061F674 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBD7E7C1C7F64480061F674 /* Assets.xcassets */; };
+		CEBD7E801C7F64480061F674 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBD7E7E1C7F64480061F674 /* LaunchScreen.storyboard */; };
+		CEBD7E8B1C7F64480061F674 /* lobotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD7E8A1C7F64480061F674 /* lobotTests.swift */; };
+		CEBD7E961C7F64480061F674 /* lobotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD7E951C7F64480061F674 /* lobotUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEBD7E871C7F64480061F674 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEBD7E6A1C7F64470061F674 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEBD7E711C7F64470061F674;
+			remoteInfo = lobot;
+		};
+		CEBD7E921C7F64480061F674 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEBD7E6A1C7F64470061F674 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEBD7E711C7F64470061F674;
+			remoteInfo = lobot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEBD7E721C7F64470061F674 /* Lobot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lobot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBD7E751C7F64480061F674 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEBD7E771C7F64480061F674 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEBD7E7A1C7F64480061F674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEBD7E7C1C7F64480061F674 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEBD7E7F1C7F64480061F674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEBD7E811C7F64480061F674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEBD7E861C7F64480061F674 /* lobotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lobotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBD7E8A1C7F64480061F674 /* lobotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lobotTests.swift; sourceTree = "<group>"; };
+		CEBD7E8C1C7F64480061F674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEBD7E911C7F64480061F674 /* lobotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lobotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBD7E951C7F64480061F674 /* lobotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lobotUITests.swift; sourceTree = "<group>"; };
+		CEBD7E971C7F64480061F674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEBD7E6F1C7F64470061F674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBD7E831C7F64480061F674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBD7E8E1C7F64480061F674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEBD7E691C7F64470061F674 = {
+			isa = PBXGroup;
+			children = (
+				CEBD7E741C7F64470061F674 /* lobot */,
+				CEBD7E891C7F64480061F674 /* lobotTests */,
+				CEBD7E941C7F64480061F674 /* lobotUITests */,
+				CEBD7E731C7F64470061F674 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEBD7E731C7F64470061F674 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEBD7E721C7F64470061F674 /* Lobot.app */,
+				CEBD7E861C7F64480061F674 /* lobotTests.xctest */,
+				CEBD7E911C7F64480061F674 /* lobotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEBD7E741C7F64470061F674 /* lobot */ = {
+			isa = PBXGroup;
+			children = (
+				CEBD7E751C7F64480061F674 /* AppDelegate.swift */,
+				CEBD7E771C7F64480061F674 /* ViewController.swift */,
+				CEBD7E791C7F64480061F674 /* Main.storyboard */,
+				CEBD7E7C1C7F64480061F674 /* Assets.xcassets */,
+				CEBD7E7E1C7F64480061F674 /* LaunchScreen.storyboard */,
+				CEBD7E811C7F64480061F674 /* Info.plist */,
+			);
+			path = lobot;
+			sourceTree = "<group>";
+		};
+		CEBD7E891C7F64480061F674 /* lobotTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEBD7E8A1C7F64480061F674 /* lobotTests.swift */,
+				CEBD7E8C1C7F64480061F674 /* Info.plist */,
+			);
+			path = lobotTests;
+			sourceTree = "<group>";
+		};
+		CEBD7E941C7F64480061F674 /* lobotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEBD7E951C7F64480061F674 /* lobotUITests.swift */,
+				CEBD7E971C7F64480061F674 /* Info.plist */,
+			);
+			path = lobotUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEBD7E711C7F64470061F674 /* lobot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEBD7E9A1C7F64480061F674 /* Build configuration list for PBXNativeTarget "lobot" */;
+			buildPhases = (
+				CEBD7E6E1C7F64470061F674 /* Sources */,
+				CEBD7E6F1C7F64470061F674 /* Frameworks */,
+				CEBD7E701C7F64470061F674 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lobot;
+			productName = lobot;
+			productReference = CEBD7E721C7F64470061F674 /* Lobot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEBD7E851C7F64480061F674 /* lobotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEBD7E9D1C7F64480061F674 /* Build configuration list for PBXNativeTarget "lobotTests" */;
+			buildPhases = (
+				CEBD7E821C7F64480061F674 /* Sources */,
+				CEBD7E831C7F64480061F674 /* Frameworks */,
+				CEBD7E841C7F64480061F674 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEBD7E881C7F64480061F674 /* PBXTargetDependency */,
+			);
+			name = lobotTests;
+			productName = lobotTests;
+			productReference = CEBD7E861C7F64480061F674 /* lobotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEBD7E901C7F64480061F674 /* lobotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEBD7EA01C7F64480061F674 /* Build configuration list for PBXNativeTarget "lobotUITests" */;
+			buildPhases = (
+				CEBD7E8D1C7F64480061F674 /* Sources */,
+				CEBD7E8E1C7F64480061F674 /* Frameworks */,
+				CEBD7E8F1C7F64480061F674 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEBD7E931C7F64480061F674 /* PBXTargetDependency */,
+			);
+			name = lobotUITests;
+			productName = lobotUITests;
+			productReference = CEBD7E911C7F64480061F674 /* lobotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEBD7E6A1C7F64470061F674 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				TargetAttributes = {
+					CEBD7E711C7F64470061F674 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = A3KUDKSDQX;
+					};
+					CEBD7E851C7F64480061F674 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = CEBD7E711C7F64470061F674;
+					};
+					CEBD7E901C7F64480061F674 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = CEBD7E711C7F64470061F674;
+					};
+				};
+			};
+			buildConfigurationList = CEBD7E6D1C7F64470061F674 /* Build configuration list for PBXProject "lobot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEBD7E691C7F64470061F674;
+			productRefGroup = CEBD7E731C7F64470061F674 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEBD7E711C7F64470061F674 /* lobot */,
+				CEBD7E851C7F64480061F674 /* lobotTests */,
+				CEBD7E901C7F64480061F674 /* lobotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEBD7E701C7F64470061F674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBD7E801C7F64480061F674 /* LaunchScreen.storyboard in Resources */,
+				CEBD7E7D1C7F64480061F674 /* Assets.xcassets in Resources */,
+				CEBD7E7B1C7F64480061F674 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBD7E841C7F64480061F674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBD7E8F1C7F64480061F674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEBD7E6E1C7F64470061F674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBD7E781C7F64480061F674 /* ViewController.swift in Sources */,
+				CEBD7E761C7F64480061F674 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBD7E821C7F64480061F674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBD7E8B1C7F64480061F674 /* lobotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBD7E8D1C7F64480061F674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBD7E961C7F64480061F674 /* lobotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEBD7E881C7F64480061F674 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEBD7E711C7F64470061F674 /* lobot */;
+			targetProxy = CEBD7E871C7F64480061F674 /* PBXContainerItemProxy */;
+		};
+		CEBD7E931C7F64480061F674 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEBD7E711C7F64470061F674 /* lobot */;
+			targetProxy = CEBD7E921C7F64480061F674 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEBD7E791C7F64480061F674 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEBD7E7A1C7F64480061F674 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEBD7E7E1C7F64480061F674 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEBD7E7F1C7F64480061F674 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEBD7E981C7F64480061F674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEBD7E991C7F64480061F674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEBD7E9B1C7F64480061F674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = lobot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.cloudcityadmin.lobot;
+				PRODUCT_NAME = Lobot;
+			};
+			name = Debug;
+		};
+		CEBD7E9C1C7F64480061F674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = lobot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.cloudcityadmin.lobot;
+				PRODUCT_NAME = Lobot;
+			};
+			name = Release;
+		};
+		CEBD7E9E1C7F64480061F674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = lobotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.cloudcityadmin.lobotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lobot.app/lobot";
+			};
+			name = Debug;
+		};
+		CEBD7E9F1C7F64480061F674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = lobotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.cloudcityadmin.lobotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lobot.app/lobot";
+			};
+			name = Release;
+		};
+		CEBD7EA11C7F64480061F674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = lobotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.cloudcityadmin.lobotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = lobot;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CEBD7EA21C7F64480061F674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = lobotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.cloudcityadmin.lobotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = lobot;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEBD7E6D1C7F64470061F674 /* Build configuration list for PBXProject "lobot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBD7E981C7F64480061F674 /* Debug */,
+				CEBD7E991C7F64480061F674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEBD7E9A1C7F64480061F674 /* Build configuration list for PBXNativeTarget "lobot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBD7E9B1C7F64480061F674 /* Debug */,
+				CEBD7E9C1C7F64480061F674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEBD7E9D1C7F64480061F674 /* Build configuration list for PBXNativeTarget "lobotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBD7E9E1C7F64480061F674 /* Debug */,
+				CEBD7E9F1C7F64480061F674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEBD7EA01C7F64480061F674 /* Build configuration list for PBXNativeTarget "lobotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBD7EA11C7F64480061F674 /* Debug */,
+				CEBD7EA21C7F64480061F674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEBD7E6A1C7F64470061F674 /* Project object */;
+}

@@ -7,64 +7,83 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CEBD7E761C7F64480061F674 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD7E751C7F64480061F674 /* AppDelegate.swift */; };
-		CEBD7E781C7F64480061F674 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD7E771C7F64480061F674 /* ViewController.swift */; };
-		CEBD7E7B1C7F64480061F674 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBD7E791C7F64480061F674 /* Main.storyboard */; };
-		CEBD7E7D1C7F64480061F674 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBD7E7C1C7F64480061F674 /* Assets.xcassets */; };
-		CEBD7E801C7F64480061F674 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBD7E7E1C7F64480061F674 /* LaunchScreen.storyboard */; };
-		CEBD7E8B1C7F64480061F674 /* lobotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD7E8A1C7F64480061F674 /* lobotTests.swift */; };
-		CEBD7E961C7F64480061F674 /* lobotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD7E951C7F64480061F674 /* lobotUITests.swift */; };
+		CE480AA91C698408004B3302 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE480AA81C698408004B3302 /* AppDelegate.swift */; };
+		CE480AAB1C698408004B3302 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE480AAA1C698408004B3302 /* ViewController.swift */; };
+		CE480AAE1C698408004B3302 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE480AAC1C698408004B3302 /* Main.storyboard */; };
+		CE480AB01C698408004B3302 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE480AAF1C698408004B3302 /* Assets.xcassets */; };
+		CE480AB31C698408004B3302 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE480AB11C698408004B3302 /* LaunchScreen.storyboard */; };
+		CE480ABE1C698409004B3302 /* lobotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE480ABD1C698409004B3302 /* lobotTests.swift */; };
+		CE480AC91C698409004B3302 /* lobotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE480AC81C698409004B3302 /* lobotUITests.swift */; };
+		CED84FF11C6FBFE30055DD01 /* Latch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED84FF01C6FBFE30055DD01 /* Latch.swift */; };
+		CED84FF91C701A190055DD01 /* green_light@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CED84FF61C701A190055DD01 /* green_light@2x.png */; };
+		CED84FFA1C701A190055DD01 /* red_light@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CED84FF71C701A190055DD01 /* red_light@2x.png */; };
+		CED84FFB1C701A190055DD01 /* yellow_light@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CED84FF81C701A190055DD01 /* yellow_light@2x.png */; };
+		CED84FFD1C725C050055DD01 /* yellow_light.png in Resources */ = {isa = PBXBuildFile; fileRef = CED84FFC1C725C050055DD01 /* yellow_light.png */; };
+		CED84FFF1C725C1B0055DD01 /* red_light.png in Resources */ = {isa = PBXBuildFile; fileRef = CED84FFE1C725C1B0055DD01 /* red_light.png */; };
+		CED850011C725C2C0055DD01 /* green_light.png in Resources */ = {isa = PBXBuildFile; fileRef = CED850001C725C2C0055DD01 /* green_light.png */; };
+		CED850041C725EB70055DD01 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = CED850021C725EB70055DD01 /* splash.png */; };
+		CED850051C725EB70055DD01 /* splash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CED850031C725EB70055DD01 /* splash@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CEBD7E871C7F64480061F674 /* PBXContainerItemProxy */ = {
+		CE480ABA1C698409004B3302 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CEBD7E6A1C7F64470061F674 /* Project object */;
+			containerPortal = CE480A9D1C698408004B3302 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CEBD7E711C7F64470061F674;
+			remoteGlobalIDString = CE480AA41C698408004B3302;
 			remoteInfo = lobot;
 		};
-		CEBD7E921C7F64480061F674 /* PBXContainerItemProxy */ = {
+		CE480AC51C698409004B3302 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CEBD7E6A1C7F64470061F674 /* Project object */;
+			containerPortal = CE480A9D1C698408004B3302 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CEBD7E711C7F64470061F674;
+			remoteGlobalIDString = CE480AA41C698408004B3302;
 			remoteInfo = lobot;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CEBD7E721C7F64470061F674 /* Lobot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lobot.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEBD7E751C7F64480061F674 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CEBD7E771C7F64480061F674 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CEBD7E7A1C7F64480061F674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CEBD7E7C1C7F64480061F674 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CEBD7E7F1C7F64480061F674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CEBD7E811C7F64480061F674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEBD7E861C7F64480061F674 /* lobotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lobotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEBD7E8A1C7F64480061F674 /* lobotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lobotTests.swift; sourceTree = "<group>"; };
-		CEBD7E8C1C7F64480061F674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEBD7E911C7F64480061F674 /* lobotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lobotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEBD7E951C7F64480061F674 /* lobotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lobotUITests.swift; sourceTree = "<group>"; };
-		CEBD7E971C7F64480061F674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE480AA51C698408004B3302 /* Lobot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lobot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE480AA81C698408004B3302 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE480AAA1C698408004B3302 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE480AAD1C698408004B3302 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE480AAF1C698408004B3302 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE480AB21C698408004B3302 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE480AB41C698408004B3302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE480AB91C698409004B3302 /* lobotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lobotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE480ABD1C698409004B3302 /* lobotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lobotTests.swift; sourceTree = "<group>"; };
+		CE480ABF1C698409004B3302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE480AC41C698409004B3302 /* lobotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lobotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE480AC81C698409004B3302 /* lobotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lobotUITests.swift; sourceTree = "<group>"; };
+		CE480ACA1C698409004B3302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED84FEF1C6FBFCC0055DD01 /* Latch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Latch.h; sourceTree = "<group>"; };
+		CED84FF01C6FBFE30055DD01 /* Latch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Latch.swift; sourceTree = "<group>"; };
+		CED84FF61C701A190055DD01 /* green_light@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green_light@2x.png"; sourceTree = "<group>"; };
+		CED84FF71C701A190055DD01 /* red_light@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red_light@2x.png"; sourceTree = "<group>"; };
+		CED84FF81C701A190055DD01 /* yellow_light@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yellow_light@2x.png"; sourceTree = "<group>"; };
+		CED84FFC1C725C050055DD01 /* yellow_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellow_light.png; sourceTree = "<group>"; };
+		CED84FFE1C725C1B0055DD01 /* red_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_light.png; sourceTree = "<group>"; };
+		CED850001C725C2C0055DD01 /* green_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_light.png; sourceTree = "<group>"; };
+		CED850021C725EB70055DD01 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		CED850031C725EB70055DD01 /* splash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CEBD7E6F1C7F64470061F674 /* Frameworks */ = {
+		CE480AA21C698408004B3302 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEBD7E831C7F64480061F674 /* Frameworks */ = {
+		CE480AB61C698409004B3302 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEBD7E8E1C7F64480061F674 /* Frameworks */ = {
+		CE480AC11C698409004B3302 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,53 +93,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CEBD7E691C7F64470061F674 = {
+		CE480A9C1C698408004B3302 = {
 			isa = PBXGroup;
 			children = (
-				CEBD7E741C7F64470061F674 /* lobot */,
-				CEBD7E891C7F64480061F674 /* lobotTests */,
-				CEBD7E941C7F64480061F674 /* lobotUITests */,
-				CEBD7E731C7F64470061F674 /* Products */,
+				CE480AA71C698408004B3302 /* lobot */,
+				CE480ABC1C698409004B3302 /* lobotTests */,
+				CE480AC71C698409004B3302 /* lobotUITests */,
+				CE480AA61C698408004B3302 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CEBD7E731C7F64470061F674 /* Products */ = {
+		CE480AA61C698408004B3302 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CEBD7E721C7F64470061F674 /* Lobot.app */,
-				CEBD7E861C7F64480061F674 /* lobotTests.xctest */,
-				CEBD7E911C7F64480061F674 /* lobotUITests.xctest */,
+				CE480AA51C698408004B3302 /* Lobot.app */,
+				CE480AB91C698409004B3302 /* lobotTests.xctest */,
+				CE480AC41C698409004B3302 /* lobotUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CEBD7E741C7F64470061F674 /* lobot */ = {
+		CE480AA71C698408004B3302 /* lobot */ = {
 			isa = PBXGroup;
 			children = (
-				CEBD7E751C7F64480061F674 /* AppDelegate.swift */,
-				CEBD7E771C7F64480061F674 /* ViewController.swift */,
-				CEBD7E791C7F64480061F674 /* Main.storyboard */,
-				CEBD7E7C1C7F64480061F674 /* Assets.xcassets */,
-				CEBD7E7E1C7F64480061F674 /* LaunchScreen.storyboard */,
-				CEBD7E811C7F64480061F674 /* Info.plist */,
+				CE480AA81C698408004B3302 /* AppDelegate.swift */,
+				CE480AAA1C698408004B3302 /* ViewController.swift */,
+				CE480AAC1C698408004B3302 /* Main.storyboard */,
+				CE480AAF1C698408004B3302 /* Assets.xcassets */,
+				CE480AB11C698408004B3302 /* LaunchScreen.storyboard */,
+				CE480AB41C698408004B3302 /* Info.plist */,
+				CED84FF61C701A190055DD01 /* green_light@2x.png */,
+				CED850001C725C2C0055DD01 /* green_light.png */,
+				CED84FF71C701A190055DD01 /* red_light@2x.png */,
+				CED84FFE1C725C1B0055DD01 /* red_light.png */,
+				CED850021C725EB70055DD01 /* splash.png */,
+				CED850031C725EB70055DD01 /* splash@2x.png */,
+				CED84FF81C701A190055DD01 /* yellow_light@2x.png */,
+				CED84FFC1C725C050055DD01 /* yellow_light.png */,
+				CED84FEF1C6FBFCC0055DD01 /* Latch.h */,
+				CED84FF01C6FBFE30055DD01 /* Latch.swift */,
 			);
 			path = lobot;
 			sourceTree = "<group>";
 		};
-		CEBD7E891C7F64480061F674 /* lobotTests */ = {
+		CE480ABC1C698409004B3302 /* lobotTests */ = {
 			isa = PBXGroup;
 			children = (
-				CEBD7E8A1C7F64480061F674 /* lobotTests.swift */,
-				CEBD7E8C1C7F64480061F674 /* Info.plist */,
+				CE480ABD1C698409004B3302 /* lobotTests.swift */,
+				CE480ABF1C698409004B3302 /* Info.plist */,
 			);
 			path = lobotTests;
 			sourceTree = "<group>";
 		};
-		CEBD7E941C7F64480061F674 /* lobotUITests */ = {
+		CE480AC71C698409004B3302 /* lobotUITests */ = {
 			isa = PBXGroup;
 			children = (
-				CEBD7E951C7F64480061F674 /* lobotUITests.swift */,
-				CEBD7E971C7F64480061F674 /* Info.plist */,
+				CE480AC81C698409004B3302 /* lobotUITests.swift */,
+				CE480ACA1C698409004B3302 /* Info.plist */,
 			);
 			path = lobotUITests;
 			sourceTree = "<group>";
@@ -128,13 +157,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CEBD7E711C7F64470061F674 /* lobot */ = {
+		CE480AA41C698408004B3302 /* lobot */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEBD7E9A1C7F64480061F674 /* Build configuration list for PBXNativeTarget "lobot" */;
+			buildConfigurationList = CE480ACD1C698409004B3302 /* Build configuration list for PBXNativeTarget "lobot" */;
 			buildPhases = (
-				CEBD7E6E1C7F64470061F674 /* Sources */,
-				CEBD7E6F1C7F64470061F674 /* Frameworks */,
-				CEBD7E701C7F64470061F674 /* Resources */,
+				CE480AA11C698408004B3302 /* Sources */,
+				CE480AA21C698408004B3302 /* Frameworks */,
+				CE480AA31C698408004B3302 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -142,69 +171,75 @@
 			);
 			name = lobot;
 			productName = lobot;
-			productReference = CEBD7E721C7F64470061F674 /* Lobot.app */;
+			productReference = CE480AA51C698408004B3302 /* Lobot.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CEBD7E851C7F64480061F674 /* lobotTests */ = {
+		CE480AB81C698409004B3302 /* lobotTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEBD7E9D1C7F64480061F674 /* Build configuration list for PBXNativeTarget "lobotTests" */;
+			buildConfigurationList = CE480AD01C698409004B3302 /* Build configuration list for PBXNativeTarget "lobotTests" */;
 			buildPhases = (
-				CEBD7E821C7F64480061F674 /* Sources */,
-				CEBD7E831C7F64480061F674 /* Frameworks */,
-				CEBD7E841C7F64480061F674 /* Resources */,
+				CE480AB51C698409004B3302 /* Sources */,
+				CE480AB61C698409004B3302 /* Frameworks */,
+				CE480AB71C698409004B3302 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CEBD7E881C7F64480061F674 /* PBXTargetDependency */,
+				CE480ABB1C698409004B3302 /* PBXTargetDependency */,
 			);
 			name = lobotTests;
 			productName = lobotTests;
-			productReference = CEBD7E861C7F64480061F674 /* lobotTests.xctest */;
+			productReference = CE480AB91C698409004B3302 /* lobotTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CEBD7E901C7F64480061F674 /* lobotUITests */ = {
+		CE480AC31C698409004B3302 /* lobotUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEBD7EA01C7F64480061F674 /* Build configuration list for PBXNativeTarget "lobotUITests" */;
+			buildConfigurationList = CE480AD31C698409004B3302 /* Build configuration list for PBXNativeTarget "lobotUITests" */;
 			buildPhases = (
-				CEBD7E8D1C7F64480061F674 /* Sources */,
-				CEBD7E8E1C7F64480061F674 /* Frameworks */,
-				CEBD7E8F1C7F64480061F674 /* Resources */,
+				CE480AC01C698409004B3302 /* Sources */,
+				CE480AC11C698409004B3302 /* Frameworks */,
+				CE480AC21C698409004B3302 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CEBD7E931C7F64480061F674 /* PBXTargetDependency */,
+				CE480AC61C698409004B3302 /* PBXTargetDependency */,
 			);
 			name = lobotUITests;
 			productName = lobotUITests;
-			productReference = CEBD7E911C7F64480061F674 /* lobotUITests.xctest */;
+			productReference = CE480AC41C698409004B3302 /* lobotUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CEBD7E6A1C7F64470061F674 /* Project object */ = {
+		CE480A9D1C698408004B3302 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Andrew Schulak";
 				TargetAttributes = {
-					CEBD7E711C7F64470061F674 = {
+					CE480AA41C698408004B3302 = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = A3KUDKSDQX;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
-					CEBD7E851C7F64480061F674 = {
+					CE480AB81C698409004B3302 = {
 						CreatedOnToolsVersion = 7.2.1;
-						TestTargetID = CEBD7E711C7F64470061F674;
+						TestTargetID = CE480AA41C698408004B3302;
 					};
-					CEBD7E901C7F64480061F674 = {
+					CE480AC31C698409004B3302 = {
 						CreatedOnToolsVersion = 7.2.1;
-						TestTargetID = CEBD7E711C7F64470061F674;
+						TestTargetID = CE480AA41C698408004B3302;
 					};
 				};
 			};
-			buildConfigurationList = CEBD7E6D1C7F64470061F674 /* Build configuration list for PBXProject "lobot" */;
+			buildConfigurationList = CE480AA01C698408004B3302 /* Build configuration list for PBXProject "lobot" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -212,37 +247,45 @@
 				en,
 				Base,
 			);
-			mainGroup = CEBD7E691C7F64470061F674;
-			productRefGroup = CEBD7E731C7F64470061F674 /* Products */;
+			mainGroup = CE480A9C1C698408004B3302;
+			productRefGroup = CE480AA61C698408004B3302 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CEBD7E711C7F64470061F674 /* lobot */,
-				CEBD7E851C7F64480061F674 /* lobotTests */,
-				CEBD7E901C7F64480061F674 /* lobotUITests */,
+				CE480AA41C698408004B3302 /* lobot */,
+				CE480AB81C698409004B3302 /* lobotTests */,
+				CE480AC31C698409004B3302 /* lobotUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CEBD7E701C7F64470061F674 /* Resources */ = {
+		CE480AA31C698408004B3302 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEBD7E801C7F64480061F674 /* LaunchScreen.storyboard in Resources */,
-				CEBD7E7D1C7F64480061F674 /* Assets.xcassets in Resources */,
-				CEBD7E7B1C7F64480061F674 /* Main.storyboard in Resources */,
+				CED84FF91C701A190055DD01 /* green_light@2x.png in Resources */,
+				CED850051C725EB70055DD01 /* splash@2x.png in Resources */,
+				CE480AB31C698408004B3302 /* LaunchScreen.storyboard in Resources */,
+				CED84FFF1C725C1B0055DD01 /* red_light.png in Resources */,
+				CED850041C725EB70055DD01 /* splash.png in Resources */,
+				CE480AB01C698408004B3302 /* Assets.xcassets in Resources */,
+				CED84FFB1C701A190055DD01 /* yellow_light@2x.png in Resources */,
+				CE480AAE1C698408004B3302 /* Main.storyboard in Resources */,
+				CED84FFA1C701A190055DD01 /* red_light@2x.png in Resources */,
+				CED850011C725C2C0055DD01 /* green_light.png in Resources */,
+				CED84FFD1C725C050055DD01 /* yellow_light.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEBD7E841C7F64480061F674 /* Resources */ = {
+		CE480AB71C698409004B3302 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEBD7E8F1C7F64480061F674 /* Resources */ = {
+		CE480AC21C698409004B3302 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -252,59 +295,60 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CEBD7E6E1C7F64470061F674 /* Sources */ = {
+		CE480AA11C698408004B3302 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEBD7E781C7F64480061F674 /* ViewController.swift in Sources */,
-				CEBD7E761C7F64480061F674 /* AppDelegate.swift in Sources */,
+				CE480AAB1C698408004B3302 /* ViewController.swift in Sources */,
+				CE480AA91C698408004B3302 /* AppDelegate.swift in Sources */,
+				CED84FF11C6FBFE30055DD01 /* Latch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEBD7E821C7F64480061F674 /* Sources */ = {
+		CE480AB51C698409004B3302 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEBD7E8B1C7F64480061F674 /* lobotTests.swift in Sources */,
+				CE480ABE1C698409004B3302 /* lobotTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEBD7E8D1C7F64480061F674 /* Sources */ = {
+		CE480AC01C698409004B3302 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEBD7E961C7F64480061F674 /* lobotUITests.swift in Sources */,
+				CE480AC91C698409004B3302 /* lobotUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CEBD7E881C7F64480061F674 /* PBXTargetDependency */ = {
+		CE480ABB1C698409004B3302 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CEBD7E711C7F64470061F674 /* lobot */;
-			targetProxy = CEBD7E871C7F64480061F674 /* PBXContainerItemProxy */;
+			target = CE480AA41C698408004B3302 /* lobot */;
+			targetProxy = CE480ABA1C698409004B3302 /* PBXContainerItemProxy */;
 		};
-		CEBD7E931C7F64480061F674 /* PBXTargetDependency */ = {
+		CE480AC61C698409004B3302 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CEBD7E711C7F64470061F674 /* lobot */;
-			targetProxy = CEBD7E921C7F64480061F674 /* PBXContainerItemProxy */;
+			target = CE480AA41C698408004B3302 /* lobot */;
+			targetProxy = CE480AC51C698409004B3302 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CEBD7E791C7F64480061F674 /* Main.storyboard */ = {
+		CE480AAC1C698408004B3302 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CEBD7E7A1C7F64480061F674 /* Base */,
+				CE480AAD1C698408004B3302 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		CEBD7E7E1C7F64480061F674 /* LaunchScreen.storyboard */ = {
+		CE480AB11C698408004B3302 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CEBD7E7F1C7F64480061F674 /* Base */,
+				CE480AB21C698408004B3302 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -312,7 +356,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		CEBD7E981C7F64480061F674 /* Debug */ = {
+		CE480ACB1C698409004B3302 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -356,7 +400,7 @@
 			};
 			name = Debug;
 		};
-		CEBD7E991C7F64480061F674 /* Release */ = {
+		CE480ACC1C698409004B3302 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -393,72 +437,76 @@
 			};
 			name = Release;
 		};
-		CEBD7E9B1C7F64480061F674 /* Debug */ = {
+		CE480ACE1C698409004B3302 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = lobot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.cloudcityadmin.lobot;
 				PRODUCT_NAME = Lobot;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
-		CEBD7E9C1C7F64480061F674 /* Release */ = {
+		CE480ACF1C698409004B3302 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = lobot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.cloudcityadmin.lobot;
 				PRODUCT_NAME = Lobot;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
-		CEBD7E9E1C7F64480061F674 /* Debug */ = {
+		CE480AD11C698409004B3302 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = lobotTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.cloudcityadmin.lobotTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fourfourhero.lobotTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lobot.app/lobot";
 			};
 			name = Debug;
 		};
-		CEBD7E9F1C7F64480061F674 /* Release */ = {
+		CE480AD21C698409004B3302 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = lobotTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.cloudcityadmin.lobotTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fourfourhero.lobotTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lobot.app/lobot";
 			};
 			name = Release;
 		};
-		CEBD7EA11C7F64480061F674 /* Debug */ = {
+		CE480AD41C698409004B3302 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = lobotUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.cloudcityadmin.lobotUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fourfourhero.lobotUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = lobot;
 				USES_XCTRUNNER = YES;
 			};
 			name = Debug;
 		};
-		CEBD7EA21C7F64480061F674 /* Release */ = {
+		CE480AD51C698409004B3302 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = lobotUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.cloudcityadmin.lobotUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fourfourhero.lobotUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = lobot;
 				USES_XCTRUNNER = YES;
@@ -468,43 +516,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CEBD7E6D1C7F64470061F674 /* Build configuration list for PBXProject "lobot" */ = {
+		CE480AA01C698408004B3302 /* Build configuration list for PBXProject "lobot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CEBD7E981C7F64480061F674 /* Debug */,
-				CEBD7E991C7F64480061F674 /* Release */,
+				CE480ACB1C698409004B3302 /* Debug */,
+				CE480ACC1C698409004B3302 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEBD7E9A1C7F64480061F674 /* Build configuration list for PBXNativeTarget "lobot" */ = {
+		CE480ACD1C698409004B3302 /* Build configuration list for PBXNativeTarget "lobot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CEBD7E9B1C7F64480061F674 /* Debug */,
-				CEBD7E9C1C7F64480061F674 /* Release */,
+				CE480ACE1C698409004B3302 /* Debug */,
+				CE480ACF1C698409004B3302 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEBD7E9D1C7F64480061F674 /* Build configuration list for PBXNativeTarget "lobotTests" */ = {
+		CE480AD01C698409004B3302 /* Build configuration list for PBXNativeTarget "lobotTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CEBD7E9E1C7F64480061F674 /* Debug */,
-				CEBD7E9F1C7F64480061F674 /* Release */,
+				CE480AD11C698409004B3302 /* Debug */,
+				CE480AD21C698409004B3302 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEBD7EA01C7F64480061F674 /* Build configuration list for PBXNativeTarget "lobotUITests" */ = {
+		CE480AD31C698409004B3302 /* Build configuration list for PBXNativeTarget "lobotUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CEBD7EA11C7F64480061F674 /* Debug */,
-				CEBD7EA21C7F64480061F674 /* Release */,
+				CE480AD41C698409004B3302 /* Debug */,
+				CE480AD51C698409004B3302 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CEBD7E6A1C7F64470061F674 /* Project object */;
+	rootObject = CE480A9D1C698408004B3302 /* Project object */;
 }

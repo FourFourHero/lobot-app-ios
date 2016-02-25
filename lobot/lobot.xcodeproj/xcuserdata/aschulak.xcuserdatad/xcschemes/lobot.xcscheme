@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CEBD7E711C7F64470061F674"
-               BuildableName = "lobot.app"
+               BlueprintIdentifier = "CE480AA41C698408004B3302"
+               BuildableName = "Lobot.app"
                BlueprintName = "lobot"
                ReferencedContainer = "container:lobot.xcodeproj">
             </BuildableReference>
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CEBD7E851C7F64480061F674"
+               BlueprintIdentifier = "CE480AB81C698409004B3302"
                BuildableName = "lobotTests.xctest"
                BlueprintName = "lobotTests"
                ReferencedContainer = "container:lobot.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CEBD7E901C7F64480061F674"
+               BlueprintIdentifier = "CE480AC31C698409004B3302"
                BuildableName = "lobotUITests.xctest"
                BlueprintName = "lobotUITests"
                ReferencedContainer = "container:lobot.xcodeproj">
@@ -52,8 +52,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CEBD7E711C7F64470061F674"
-            BuildableName = "lobot.app"
+            BlueprintIdentifier = "CE480AA41C698408004B3302"
+            BuildableName = "Lobot.app"
             BlueprintName = "lobot"
             ReferencedContainer = "container:lobot.xcodeproj">
          </BuildableReference>
@@ -75,8 +75,8 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CEBD7E711C7F64470061F674"
-            BuildableName = "lobot.app"
+            BlueprintIdentifier = "CE480AA41C698408004B3302"
+            BuildableName = "Lobot.app"
             BlueprintName = "lobot"
             ReferencedContainer = "container:lobot.xcodeproj">
          </BuildableReference>
@@ -94,8 +94,8 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CEBD7E711C7F64470061F674"
-            BuildableName = "lobot.app"
+            BlueprintIdentifier = "CE480AA41C698408004B3302"
+            BuildableName = "Lobot.app"
             BlueprintName = "lobot"
             ReferencedContainer = "container:lobot.xcodeproj">
          </BuildableReference>

@@ -2,8 +2,8 @@
 //  lobotUITests.swift
 //  lobotUITests
 //
-//  Created by Andrew Schulak on 2/25/16.
-//
+//  Created by Andrew Schulak on 2/8/16.
+//  Copyright © 2016 Andrew Schulak. All rights reserved.
 //
 
 import XCTest

@@ -46,11 +46,26 @@ class ViewController: UIViewController, UITextFieldDelegate {
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "didBecomeActive:", name: "didBecomeActive", object: nil)
         
         print("did load")
+
+        NSNotificationCenter.defaultCenter().addObserverForName(UIKeyboardDidShowNotification, object: nil, queue: NSOperationQueue.mainQueue()) { (notification) -> Void in
+            let info = notification.userInfo
+            let keyboardSize = info![UIKeyboardFrameBeginUserInfoKey]?.CGRectValue.size
+            self.view.transform = CGAffineTransformMakeTranslation(0, -1 * (keyboardSize?.height)!)
+            print(keyboardSize);
+        }
+
+        NSNotificationCenter.defaultCenter().addObserverForName(UIKeyboardDidHideNotification, object: nil, queue: NSOperationQueue.mainQueue()) { (notification) -> Void in
+            self.view.transform = CGAffineTransformIdentity
+        }
+    }
+
+    override func preferredStatusBarStyle() -> UIStatusBarStyle {
+        return UIStatusBarStyle.LightContent
     }
 
     override func viewWillAppear(animated: Bool) {
         self.alertView.layer.cornerRadius = 10
-        self.alertView.layer.borderColor = UIColor.init(colorLiteralRed: 255/98, green: 255/154, blue: 288/209, alpha: 1).CGColor
+        self.alertView.layer.borderColor = self.alertButton.backgroundColor!.CGColor
         self.alertView.layer.borderWidth = 2.0
         self.alertView.layer.shadowColor = UIColor.blackColor().CGColor
         self.alertView.layer.shadowOffset = CGSizeMake(4, 4)
@@ -224,7 +239,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     func showAlerts() {
-        var message_num: String = ""
+        var message_num: String = "0"
         if var alertMessage = self.alerts.first {
             if alertMessage.containsString(":") {
                 print("alter contains a colon, has the message num:")

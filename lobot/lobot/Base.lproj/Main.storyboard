@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -18,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash.png" translatesAutoresizingMaskIntoConstraints="NO" id="tuW-2n-bIN">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="tuW-2n-bIN">
                                 <rect key="frame" x="-2" y="0.0" width="604" height="600"/>
                             </imageView>
                             <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R2q-mB-zsR">
@@ -80,16 +79,16 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gZq-ku-bnL">
-                                        <rect key="frame" x="121" y="37" width="164" height="109"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <rect key="frame" x="85" y="37" width="200" height="109"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_1" translatesAutoresizingMaskIntoConstraints="NO" id="Yfe-Rd-ZIa">
-                                        <rect key="frame" x="13" y="42" width="100" height="100"/>
+                                        <rect key="frame" x="13" y="60" width="64" height="64"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="100" id="Ngh-By-pjR"/>
-                                            <constraint firstAttribute="height" constant="100" id="dGq-p7-pZu"/>
+                                            <constraint firstAttribute="width" constant="64" id="Ngh-By-pjR"/>
+                                            <constraint firstAttribute="height" constant="64" id="dGq-p7-pZu"/>
                                         </constraints>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="clip" translatesAutoresizingMaskIntoConstraints="NO" id="Fyc-7F-6qP">
@@ -108,7 +107,7 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.40000000000000002" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="kCD-1F-Ecr" firstAttribute="leading" secondItem="VWY-dg-Db7" secondAttribute="leading" constant="8" id="0UW-c4-bQ8"/>
                                     <constraint firstItem="gZq-ku-bnL" firstAttribute="centerX" secondItem="kCD-1F-Ecr" secondAttribute="centerX" id="1Jg-cP-2UR"/>
@@ -126,7 +125,7 @@
                                     <constraint firstAttribute="height" constant="200" id="uFm-lB-mSb"/>
                                     <constraint firstItem="Yfe-Rd-ZIa" firstAttribute="centerY" secondItem="gZq-ku-bnL" secondAttribute="centerY" id="w6O-N8-xuK"/>
                                     <constraint firstAttribute="width" constant="300" id="xIJ-O5-U5n"/>
-                                    <constraint firstItem="gZq-ku-bnL" firstAttribute="centerX" secondItem="VWY-dg-Db7" secondAttribute="centerX" constant="53" id="z5w-rP-LP4"/>
+                                    <constraint firstItem="gZq-ku-bnL" firstAttribute="centerX" secondItem="VWY-dg-Db7" secondAttribute="centerX" constant="35" id="z5w-rP-LP4"/>
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
@@ -165,6 +164,7 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="vg7-fN-RvK" secondAttribute="bottom" constant="3" id="ti3-BB-Jlx"/>
                         </constraints>
                     </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <connections>
                         <outlet property="alertButton" destination="Fyc-7F-6qP" id="JyQ-D0-Jff"/>
                         <outlet property="alertIcon" destination="Yfe-Rd-ZIa" id="dMG-fh-DgR"/>
@@ -183,10 +183,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="background" width="320" height="568"/>
         <image name="green_light.png" width="16" height="16"/>
         <image name="icon_1" width="100" height="100"/>
         <image name="red_light.png" width="16" height="16"/>
-        <image name="splash.png" width="750" height="1334"/>
         <image name="yellow_light.png" width="16" height="16"/>
     </resources>
 </document>

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -18,18 +16,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash.png" translatesAutoresizingMaskIntoConstraints="NO" id="cir-wY-J8Q">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Launch_Image_.png" translatesAutoresizingMaskIntoConstraints="NO" id="DLh-BU-cnK">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="0.83921568629999999" green="0.0" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.31372549020000001" green="0.52549019610000003" blue="0.77647058820000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="cir-wY-J8Q" secondAttribute="trailing" constant="-20" id="O8h-c6-eii"/>
-                            <constraint firstItem="cir-wY-J8Q" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-20" id="fsZ-iv-eDf"/>
-                            <constraint firstItem="cir-wY-J8Q" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="iCM-MV-8C8"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="cir-wY-J8Q" secondAttribute="bottom" id="jbW-7h-yg8"/>
-                            <constraint firstItem="cir-wY-J8Q" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" id="vIj-GF-FdE"/>
-                            <constraint firstItem="cir-wY-J8Q" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="xaB-Bt-UAs"/>
+                            <constraint firstItem="DLh-BU-cnK" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="ARN-Vn-kBj"/>
+                            <constraint firstItem="DLh-BU-cnK" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="MdR-Gh-YcV"/>
+                            <constraint firstItem="DLh-BU-cnK" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" id="Qsf-VJ-dTB"/>
+                            <constraint firstItem="DLh-BU-cnK" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="u1t-EK-Gnb"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -39,6 +36,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="splash.png" width="750" height="1334"/>
+        <image name="Launch_Image_.png" width="320" height="568"/>
     </resources>
 </document>
